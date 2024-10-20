@@ -1,0 +1,41 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    padding: 10px;
+}
+main {
+    font-size: 16px;
+    line-height: 1.5;
+}
+.cards {
+    width: 100%;
+    height: 600px;
+    
+    border-radius: 20px 0 0 20px;
+    background-color:azure;
+    border: 1px solid black;
+
+    overflow-y: auto;
+}
+h2 {
+    margin: 5px 0;
+}
+.card {
+    display: inline-block;
+    
+    min-width: 250px;
+    width: 18%;
+    height: 35%;
+
+    background-color: #b9a386;
+    border: 1px solid black;
+    box-shadow: inset 0 0 15px rgba(77, 77, 77, 0.7);
+
+    border-radius: 15px;
+
+    margin: 15px;
+    padding: 15px;
+}
